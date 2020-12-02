@@ -1,0 +1,14 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  }
+
+p {
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: -10px;
+    line-height: 0%;
+}

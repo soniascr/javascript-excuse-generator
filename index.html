@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="app.js"></script>
+        <title>Excuse Generator</title>
+   </head>
+   <body>
+        <div class="center">
+            <h1>OMG! You won´t believe me but...</h1>
+            <p id="excuse">My dog ate my homework</p>
+        </div>
+
+         
+   </body>
+
+   <script>
+       document.getElementById("excuse").innerHTML = randomExcuse(who,action,what,when);
+   </script>
+</html>
